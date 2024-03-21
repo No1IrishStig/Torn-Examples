@@ -19,7 +19,7 @@ def getConfig():  # Getting the config file
 config = getConfig()
 
 
-async def request(url):  # Async API Requesting so it doesn't lock up the bot if its taking longer than expected
+async def request(url):  # Async API Requesting, so it doesn't lock up the bot if its taking longer than expected
     url = url + f"&comment={config['api_request_comment']}"
 
     async with aiohttp.ClientSession() as session:

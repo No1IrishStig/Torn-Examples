@@ -80,7 +80,6 @@ class Commands(commands.Cog):
         deleted_count = await ctx.channel.purge(limit=amount)
         await ctx.respond(f"Deleted: {len(deleted_count)} messages", delete_after=15)  # Self Deletes after 15 seconds
 
-
     """
     This command will find an item using the API and give you data about it
     
