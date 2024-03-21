@@ -1,3 +1,9 @@
+# App Script
+AppScript code has been included in the Google Sheets folder. This code can be used in Google Sheets to automate things.
+
+# Tampermonkey
+I've included one JavaScript UserScript in the Tampermonkey folder which is the example shown in the Newspaper Article.
+
 # Torn Discord Bot Framework
 This is an example Torn.com for beginners to use as a baseline to build off. Find an installation guide on how to get started and more.
 
